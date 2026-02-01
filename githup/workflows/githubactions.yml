@@ -3,7 +3,7 @@ on:
 
     branches:
       - main
-      - master\**
+      - master
     
 
 jobs:
@@ -12,6 +12,6 @@ jobs:
 
 
     steps:
-     - name: first 
+     - name: first-step 
        run: echo "workflow is good"
   
