@@ -1,0 +1,17 @@
+on:
+  push:
+
+    branches:
+      - main
+      - master\**
+    
+
+jobs:
+  tset:
+    runs-on: ubuntu-latest
+
+
+    steps:
+     - name: first 
+       run: echo "workflow is good"
+  
