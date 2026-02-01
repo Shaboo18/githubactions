@@ -1,9 +1,9 @@
 on:
   push:
 
-    branches:
-      - main
-      - master
+     branches:
+       - main
+       - master
     
 
 jobs:
@@ -12,6 +12,6 @@ jobs:
 
 
     steps:
-     - name: first-step 
-       run: echo "workflow is good"
+      - name: first-step 
+        run: echo "workflow is good"
   
