@@ -1,17 +1,18 @@
+
+name: first-action
+
 on:
   push:
-
     branches:
-      - main
-      - master
+       - main
+       - master
     
 
 jobs:
   tset:
     runs-on: ubuntu-latest
-
-
     steps:
      - name: first 
        run: echo "itis working"
-  
+     - name: second
+       run: echo "تعبت وربناا"
