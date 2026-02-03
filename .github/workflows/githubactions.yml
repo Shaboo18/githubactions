@@ -6,12 +6,17 @@ on:
     branches:
        - main
        - master
-    
+  pulll_request:
+    branches:
+       -master   
 
 jobs:
   tset:
     runs-on: ubuntu-latest
+
     steps:
+     - name: checkout-code
+       uses: actions/checkout@v3
      - name: first 
        run: echo "itis working"
      - name: second
