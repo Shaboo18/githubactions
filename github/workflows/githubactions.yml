@@ -13,5 +13,5 @@ jobs:
 
     steps:
      - name: first 
-       uses: 
+       run: echo "itis working"
   
