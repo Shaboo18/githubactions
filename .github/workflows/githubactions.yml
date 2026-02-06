@@ -1,15 +1,15 @@
 name: first-action
 
 on:
-  workflow-dispatch:
-    inputs:
-      environment:
-        description: "fksdfd"
-        required: true
-        default: "sdf"
-        options:
-          - staging
-          - dfdf
+   workflow-dispatch:
+     inputs:
+       environment:
+         description: "fksdfd"
+         required: true
+         default: "sdf"
+         options:
+           - staging
+           - dfdf
 
 jobs:
   test:
