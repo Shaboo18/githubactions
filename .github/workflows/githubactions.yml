@@ -1,35 +1,25 @@
-
 name: first-action
 
 on:
-
   workflow-dispatch:
-    
+    inputs:
+      environment:
+        description: "fksdfd"
+        required: true
+        default: "sdf"
+        options:
+          - staging
+          - dfdf
 
-   inputs:
-    environment:
-     decription: "fksdfd"
- 
-     required: true
-     default: "sdf"
-     options:
-      - staginf 
-      - dfdf
 jobs:
-  tset:
+  test:
     runs-on: ubuntu-latest
-
     steps:
-     - name: first 
-       run: echo "itis working"
+      - name: first-step
+        run: echo "itis working"
 
-  
+      - name: second-step
+        run: echo "dfwjdf"
 
-     - name: second
-
-       
-       run: echo " dfwjdf"
-
-
-     - name: second
-       run: echo "تعبت وربناا"
+      - name: third-step
+        run: echo "تعبت وربناا"
