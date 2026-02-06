@@ -3,18 +3,18 @@ name: first-action
 
 on:
 
-  workflow-dispatch:
+   workflow-dispatch:
     
 
-   inputs:
-    environment:
-     decription: "fksdfd"
- 
-     required: true
-     default: "sdf"
-     options:
-      - staginf 
-      - dfdf
+      inputs:
+       environment:
+       description: "fksdfd"
+  
+       required: true
+       default: "sdf"
+       options:
+         - staginf 
+         - dfdf
 jobs:
   tset:
     runs-on: ubuntu-latest
@@ -25,9 +25,7 @@ jobs:
 
   
 
-     - name: second
-
-       
+     - name: second       
        run: echo " dfwjdf"
 
 
