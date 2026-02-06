@@ -7,14 +7,14 @@ on:
     
 
       inputs:
-       environment:
-       description: "fksdfd"
-  
-       required: true
-       default: "sdf"
-       options:
-         - staginf 
-         - dfdf
+         environment:
+           description: "fksdfd"
+   
+           required: true
+           default: "sdf"
+           options:
+            - staginf 
+            - dfdf
 jobs:
   tset:
     runs-on: ubuntu-latest
