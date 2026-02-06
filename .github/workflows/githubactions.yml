@@ -11,18 +11,6 @@ on:
           - staging
           - dfdf
 
-<<<<<<< HEAD
-=======
-      inputs:
-        environment:
-           description: "fksdfd"
-   
-           required: true
-           default: "sdf"
-           options:
-            - staginf 
-            - dfdf
->>>>>>> b1afb1ceee03d82d7a77955c949c84321715506a
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -33,14 +21,5 @@ jobs:
       - name: second-step
         run: echo "dfwjdf"
 
-<<<<<<< HEAD
       - name: third-step
         run: echo "تعبت وربناا"
-=======
-     - name: second       
-       run: echo " dfwjdf"
-
-
-     - name: third
-       run: echo "تعبت وربناا"
->>>>>>> b1afb1ceee03d82d7a77955c949c84321715506a
