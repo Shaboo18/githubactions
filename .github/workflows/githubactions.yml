@@ -1,5 +1,9 @@
+
+name: first-action
+
 on:
   push:
+<<<<<<< HEAD
 
 <<<<<<< Updated upstream
     branches:
@@ -18,18 +22,32 @@ on:
       - dfdf
   
 >>>>>>> Stashed changes
+=======
+    branches:
+       - main
+       - master
+  pulll_request:
+    branches:
+       -master   
+>>>>>>> 39704a5a00d4a7c7edb60bc51a206540ccd1f77c
 
 jobs:
   tset:
     runs-on: ubuntu-latest
 
-
     steps:
+     - name: checkout-code
+       uses: actions/checkout@v3
      - name: first 
        run: echo "itis working"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   
 =======
      - name: second
        run: echo " dfwjdf"
 >>>>>>> Stashed changes
+=======
+     - name: second
+       run: echo "تعبت وربناا"
+>>>>>>> 39704a5a00d4a7c7edb60bc51a206540ccd1f77c
