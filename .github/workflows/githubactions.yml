@@ -2,13 +2,19 @@
 name: first-action
 
 on:
-  push:
-    branches:
-       - main
-       - master
-  pulll_request:
-    branches:
-       -master   
+  workflow-dispatch:
+
+   inputs:
+    environment:
+     decription: "fksdfd"
+ 
+     required: true
+     default: "sdf"
+     options:
+      - staginf 
+      - dfdf
+  scheduele:
+    - cron: "0 9 1 * *" 
 
 jobs:
   tset:
@@ -20,4 +26,4 @@ jobs:
      - name: first 
        run: echo "itis working"
      - name: second
-       run: echo "تعبت وربناا"
+       run: echo "  ${{gggg}}تعبت وربناا"
