@@ -3,11 +3,11 @@ name: first-action
 
 on:
 
-   workflow-dispatch:
+  workflow-dispatch:
     
 
       inputs:
-         environment:
+        environment:
            description: "fksdfd"
    
            required: true
@@ -29,5 +29,5 @@ jobs:
        run: echo " dfwjdf"
 
 
-     - name: second
+     - name: third
        run: echo "تعبت وربناا"
