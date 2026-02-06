@@ -1,10 +1,23 @@
 on:
   push:
 
+<<<<<<< Updated upstream
     branches:
       - main
       - master
     
+=======
+   inputs:
+    environment:
+     decription: "fksdfd"
+ 
+     required: true
+     default: "sdf"
+     options:
+      - staginf 
+      - dfdf
+  
+>>>>>>> Stashed changes
 
 jobs:
   tset:
@@ -14,4 +27,9 @@ jobs:
     steps:
      - name: first 
        run: echo "itis working"
+<<<<<<< Updated upstream
   
+=======
+     - name: second
+       run: echo " dfwjdf"
+>>>>>>> Stashed changes
