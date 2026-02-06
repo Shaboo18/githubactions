@@ -2,7 +2,9 @@
 name: first-action
 
 on:
+
   workflow-dispatch:
+    
 
    inputs:
     environment:
@@ -13,17 +15,21 @@ on:
      options:
       - staginf 
       - dfdf
-  scheduele:
-    - cron: "0 9 1 * *" 
-
 jobs:
   tset:
     runs-on: ubuntu-latest
 
     steps:
-     - name: checkout-code
-       uses: actions/checkout@v3
      - name: first 
        run: echo "itis working"
+
+  
+
      - name: second
-       run: echo "  ${{gggg}}تعبت وربناا"
+
+       
+       run: echo " dfwjdf"
+
+
+     - name: second
+       run: echo "تعبت وربناا"
